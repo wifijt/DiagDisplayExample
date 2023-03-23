@@ -48,7 +48,6 @@ void displayln(char txt[21]) {
   display.setCursor(0, 0);
   for (int i = 0; i <= MAX_LINES - 1; i++) { // populate the display
     display.println(lines[i]);
-    Serial.println(lines[i]);
   }
   display.display();
 }
